@@ -1,8 +1,8 @@
 <h1>Diffie-Hellman Key Exchange</h1>
 
-The script <b>Diffi-Hellman</b> implements the Diffie-Hellman key exchange method. The Diffie-Hellman key exchange method allows two parties that have no prior knowledge of each other to jointly establish a shared secret key over an insecure communications channel.<br>
+The script <b>Diffi-Hellman.sh</b> implements the Diffie-Hellman key exchange method. The Diffie-Hellman key exchange method allows two parties that have no prior knowledge of each other to jointly establish a shared secret key over an insecure communications channel.<br>
 
-This key can then be used to encrypt subsequent communications using a symmetric key cipher, as it is clearly ejemplified in both <b>Alice</b> and <b>Bob</b> scripts.
+This key can then be used to encrypt subsequent communications using a symmetric key cipher, as it is clearly ejemplified in both <b>Alice.sh</b> and <b>Bob.sh</b> scripts.
 
 <h3>Mathematics behind the Algorithm</h3>
 
@@ -12,7 +12,9 @@ The security of the Diffie-Hellman key exchange protocol relies on the difficult
 
 Given:
 
-n=29,g=2, Alice chooses a secret a=5,Bob chooses a secret b=11
+n= 29, g= 2, 
+Alice chooses a secret a= 5,
+Bob chooses a secret b=11.
 
 Alice computes her public value:
 
