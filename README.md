@@ -16,21 +16,21 @@ n=29,g=2, Alice chooses a secret a=5,Bob chooses a secret b=11
 
 Alice computes her public value:
 
-A=25(mod29)=3
+A=2<sup>5</sup> (mod 29) = 3
 
 Bob computes his public value:
 
-B=211(mod29)=18
+B=2<sup>11</sup> (mod 29) = 18
 
 They publicly exchange these public values.
 
 Alice computes:
 
-S=Ba(mod29)=gba(mod29)=15
+S=B<sup>a</sup> (mod 29) = g<sup>ba</sup> (mod 29) = 15
 
 Bob computes:
 
-S=Ab(mod29)=gab(mod29)=15
+S=A<sup>b</sup> (mod2 9) = g<sup>ab</sup> (mod 29) = 15
 
 Notice that Alice and Bob kept their private component a secret, but were able to arrive at the same shared key S.
 
