@@ -2,7 +2,7 @@
 
 The script <b>Diffi-Hellman</b> implements the Diffie-Hellman key exchange method. The Diffie-Hellman key exchange method allows two parties that have no prior knowledge of each other to jointly establish a shared secret key over an insecure communications channel.<br>
 
-This key can then be used to encrypt subsequent communications using a symmetric key cipher, as it is clearly ejemplified in both <b>Alice</b> and </Bob> scripts.
+This key can then be used to encrypt subsequent communications using a symmetric key cipher, as it is clearly ejemplified in both <b>Alice</b> and <b>Bob</b> scripts.
 
 <h3>Mathematics behind the Algorithm</h3>
 
