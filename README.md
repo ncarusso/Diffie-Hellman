@@ -32,7 +32,7 @@ S=B<sup>a</sup> (mod 29) = g<sup>ba</sup> (mod 29) = 15
 
 Bob computes:
 
-S=A<sup>b</sup> (mod2 9) = g<sup>ab</sup> (mod 29) = 15
+S=A<sup>b</sup> (mod 29) = g<sup>ab</sup> (mod 29) = 15
 
 Notice that Alice and Bob kept their private component a secret, but were able to arrive at the same shared key S.
 
